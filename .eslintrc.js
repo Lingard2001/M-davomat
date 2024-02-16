@@ -24,7 +24,6 @@ module.exports = {
     '@next/next/no-img-element': 'off',
     'react/no-unescaped-entities': 'off',
     'import/no-anonymous-default-export': 'off',
-    "lines-around-comment": "off",
     "newline-before-return": "off",
     'import/newline-after-import': [
       'error',
