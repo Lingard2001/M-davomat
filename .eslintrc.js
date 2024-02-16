@@ -24,19 +24,7 @@ module.exports = {
     '@next/next/no-img-element': 'off',
     'react/no-unescaped-entities': 'off',
     'import/no-anonymous-default-export': 'off',
-    "newline-before-return": "off",
-    'import/newline-after-import': [
-      'error',
-      {
-        count: 1
-      }
-    ],
-
-    // add new line after each var, const, let declaration
-    'padding-line-between-statements': [
-      'error',
-      { blankLine: 'always', prev: ['export'], next: ['*'] },
-      { blankLine: 'always', prev: ['*'], next: ['multiline-const', 'multiline-let', 'multiline-var', 'export'] }
-    ]
+    "lines-around-comment": "off",
+    "newline-before-return": "off"
   }
 }
